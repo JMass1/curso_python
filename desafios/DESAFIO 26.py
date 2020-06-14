@@ -1,0 +1,5 @@
+print('========== DESAFIO #26 ==========')
+sfrase = str(input('Digite uma frase:')).strip().upper()
+print('Na frase anterior a letra A aparece {} vezes'.format(sfrase.count('A')))
+print('Ela aparece primeiramente na posição {}'.format(sfrase.find('A')+1))
+print('Ela aparece por último na posição {}'.format(sfrase.rfind('A')+1))

@@ -1,0 +1,8 @@
+print('========== DESAFIO #9 ==========')
+n1 = int (input('Digite um número inteiro'))
+print('A tabuada do número {} é:'.format(n1))
+print('-'*17)
+print('{:<3} x   1   = {:>3}\n{:<3} x   2   = {:>3}\n{:<3} x   3   = {:>3}'.format(n1,n1*1,n1,n1*2,n1,n1*3),end='')
+print('\n{:<3} x   4   = {:>3}\n{:<3} x   5   = {:>3}\n{:<3} x   6   = {:>3}\n{:<3} x   7   = {:>3} '.format(n1,n1*4,n1,n1*5,n1,n1*6,n1,n1*7),end='')
+print('\n{:<3} x   8   = {:>3}\n{:<3} x   9   = {:>3}\n{:<3} x  10   = {:>3}'.format(n1,n1*8,n1,n1*9,n1,n1*10))
+print('-'*17)
